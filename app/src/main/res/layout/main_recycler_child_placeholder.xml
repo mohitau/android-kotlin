@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/user_dp_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/placeholder_grey"
+        android:scaleType="fitXY" />
+
+    <View
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@+id/user_dp_view"
+        android:background="@color/placeholder_grey"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/subtitle_view"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/title_view"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@+id/user_dp_view"
+        android:background="@color/placeholder_grey"
+        android:textColor="@color/grey_1"
+        android:textSize="10sp" />
+
+    <View
+        android:id="@+id/posted_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/subtitle_view"
+        android:layout_marginTop="8dp"
+        android:background="@color/placeholder_grey"
+        android:scaleType="fitXY" />
+
+    <View
+        android:id="@+id/post_text"
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_below="@+id/posted_image_view"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/placeholder_grey"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+</RelativeLayout>
